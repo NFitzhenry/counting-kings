@@ -1031,13 +1031,13 @@
 
 <!-- HERO -->
 <header class="hero">
-  <span class="hero-kicker">King's College Cambridge · 1797–present</span>
+  <span class="hero-kicker">King's College Cambridge · Admissions 1797–2010</span>
   <h1 class="hero-title">
     Counting Kings
-    <span>A Data-Driven History</span>
+    <span>A Digital History</span>
   </h1>
   <p class="hero-subtitle">
-    Drawing on the college's own <em>Registers of Admissions</em> to reconstruct patterns of entry, study, and career across two centuries.
+    Unlocking the data within the college's <em>Registers of Admissions</em> — seven volumes compiled over 115 years — to reveal patterns of entry, study, and career across two centuries.
   </p>
   <div class="scroll-hint">
     <span>Explore</span>
@@ -1371,74 +1371,137 @@
     <span class="section-label">§ 02 — The Source</span>
     <h2 class="section-title">The <em>Registers of Admissions</em></h2>
     <div class="rule-divider"><span class="rule-ornament">✦</span></div>
-    <p style="max-width:640px; margin-bottom: 3rem;">
-      The <em>Registers of Admissions to King's College, Cambridge</em> were compiled and published 
-      across eight editions between 1903 and 2018, covering admissions from 1797 to 2010. 
-      Each entry records the member's school, year of admission, tripos subject and class, 
-      career, last known address, and dates of birth and death. Not all editions are of equal 
-      utility: some are partially superseded by later volumes with richer biographical data; 
-      two are fully redundant. The table below summarises the series and the project's 
-      current processing status.
+    <p style="max-width:640px; margin-bottom: 1.8rem;">
+      The <em>Registers of Admissions to King's College, Cambridge</em> were compiled across
+      seven editions between 1903 and 2018, each editor building on the work of his predecessors
+      and seeking, as John Withers put it in 1903, to give "not merely a purely scholastic record,
+      but a short and concise biographical sketch of each man generally, with special reference
+      to his past career, his present occupation, and address, so that any friend or contemporary
+      would know at a glance what he had done, what he was doing, and where he might be found."
+      The table below shows the full series and the current state of digitisation.
     </p>
+    <blockquote style="max-width:580px; margin-bottom: 3rem; font-size: 1rem;">
+      "College Registers come to have a greatly enhanced importance for historians and
+      biographers. But their chief purpose is to keep alive mutual interest in members of
+      a great foundation."
+      <footer style="margin-top: 0.6rem; font-size: 0.82rem; font-style: normal; color: var(--pale-purple);">
+        — R. H. Bulmer &amp; L. P. Wilkinson, <em>Preface to the Register</em>, 1963
+      </footer>
+    </blockquote>
 
     <!-- Register spine images -->
     <div class="spine-row">
       <div class="spine-placeholder spine-redundant" title="Withers 1903 — superseded">
-        <div class="spine-status">— Skip</div>
+        <div class="spine-status">Superseded</div>
         <div class="spine-label">1. Withers 1903</div>
         <div class="spine-coverage">1850–1900</div>
-        <div class="spine-note">Redundant — superseded by Withers 1929</div>
+        <div class="spine-note">First edition; all content in the fuller 1929 edition</div>
       </div>
       <div class="spine-placeholder spine-done spine-primary" title="Withers 1929 — core dataset">
-        <div class="spine-status">✅ Done</div>
+        <div class="spine-status">Complete</div>
         <div class="spine-label">2. Withers 1929</div>
         <div class="spine-coverage">1797–1925</div>
-        <div class="spine-note">Core dataset · 2,571 entries · v6 pipeline</div>
+        <div class="spine-note">First volume digitised · 2,571 members</div>
       </div>
       <div class="spine-placeholder spine-redundant" title="Moir 1933 — skip">
-        <div class="spine-status">— Skip</div>
+        <div class="spine-status">Superseded</div>
         <div class="spine-label">3. Moir 1933</div>
         <div class="spine-coverage">1926–1933</div>
-        <div class="spine-note">Redundant — all content in Bulmer 1963</div>
+        <div class="spine-note">Supplement; incorporated into Bulmer &amp; Wilkinson 1963</div>
       </div>
       <div class="spine-placeholder spine-processing" title="Bulmer &amp; Wilkinson 1963 — processing">
-        <div class="spine-status">⚙ Processing</div>
+        <div class="spine-status">In progress</div>
         <div class="spine-label">4. Bulmer &amp; Wilkinson 1963</div>
         <div class="spine-coverage">1919–1958</div>
-        <div class="spine-note">3,860 entries</div>
+        <div class="spine-note">3,860 members · next priority</div>
       </div>
       <div class="spine-placeholder spine-redundant" title="Bulmer &amp; Wilkinson 1973 — skip">
-        <div class="spine-status">— Skip</div>
+        <div class="spine-status">Superseded</div>
         <div class="spine-label">5. Bulmer &amp; Wilkinson 1973</div>
         <div class="spine-coverage">1945–1970</div>
-        <div class="spine-note">Largely superseded by Barcroft 1989</div>
+        <div class="spine-note">Largely superseded by Barcroft &amp; Booth 1989</div>
       </div>
       <div class="spine-placeholder spine-processing" title="Barcroft &amp; Booth 1989 — processing">
-        <div class="spine-status">⚙ Processing</div>
+        <div class="spine-status">In progress</div>
         <div class="spine-label">6. Barcroft &amp; Booth 1989</div>
         <div class="spine-coverage">1945–1982</div>
-        <div class="spine-note">5,219 entries · Extraction needed</div>
+        <div class="spine-note">5,219 members · extraction under way</div>
       </div>
       <div class="spine-placeholder spine-pending" title="Campbell et al. 1998 — pending">
-        <div class="spine-status">⏳ Pending</div>
+        <div class="spine-status">Forthcoming</div>
         <div class="spine-label">7. Campbell et al. 1998</div>
         <div class="spine-coverage">1919–1990</div>
-        <div class="spine-note">~5,000 entries</div>
+        <div class="spine-note">~5,000 members</div>
       </div>
       <div class="spine-placeholder spine-pending" title="Adkins et al. 2018 — highest priority">
-        <div class="spine-status">⏳ Pending</div>
+        <div class="spine-status">Forthcoming</div>
         <div class="spine-label">8. Adkins et al. 2018</div>
         <div class="spine-coverage">1934–2010</div>
-        <div class="spine-note">~10,000 entries</div>
+        <div class="spine-note">~10,000 members</div>
       </div>
     </div>
-    <p class="spine-caption">The eight editions of the <em>Register of Admissions to King's College, Cambridge</em>.
-    Edition 2 (Withers 1929, admissions 1797–1925) is the current project scope. Edition 8 (Adkins et al. 2018) is the highest-priority acquisition.</p>
+    <p class="spine-caption">The seven editions of the <em>Register of Admissions to King's College, Cambridge</em>, 1903–2018.
+    Edition 2 (Withers 1929, admissions 1797–1925) forms the first completed dataset. Edition 7 (Adkins et al. 2018) is the highest-priority next acquisition.</p>
+
+    <!-- Compilers' tribute -->
+    <div style="margin-top: 3.5rem; border-top: 1px solid var(--rule); padding-top: 3rem;">
+      <h3 class="subsection-title" style="margin-bottom: 0.6rem;">The compilers</h3>
+      <p style="max-width:680px; font-size: 0.95rem; color: var(--pale-purple); margin-bottom: 2rem; font-style: italic; line-height: 1.7;">
+        The Register series was sustained across 115 years by seven successive editorial teams,
+        each building on their predecessors' work. Withers wrote to every traceable member by hand;
+        Bulmer and Wilkinson proof-read 3,860 entries against college records; Barcroft and Booth
+        circulated and chased questionnaires to 5,311 members across the world. Their collective
+        effort is the foundation on which this project rests.
+      </p>
+      <blockquote style="max-width:600px; margin-bottom: 2.5rem; font-size: 0.97rem;">
+        "I shall never be able to publish a new edition of this book, but I hope that the College,
+        or the King's College Association, may realise its advantages in promoting the interests
+        of the College and will from time to time issue a new edition, bringing the record up to date."
+        <footer style="margin-top: 0.7rem; font-size: 0.8rem; font-style: normal; color: var(--pale-purple);">
+          — John J. Withers, <em>Preface to the Second Edition</em>, 1 December 1928
+        </footer>
+      </blockquote>
+      <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 1rem; margin-bottom: 1.5rem;">
+        <div style="border: 1px solid rgba(107,31,138,0.25); padding: 1.2rem; background: rgba(107,31,138,0.04);">
+          <div style="font-family: var(--font-display); font-size: 0.85rem; color: var(--off-white); margin-bottom: 0.25rem; letter-spacing: 0.02em;">John J. Withers</div>
+          <div style="font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.1em; color: var(--purple-glow); margin-bottom: 0.6rem;">Editions 1 &amp; 2 · 1903, 1929</div>
+          <p style="font-size: 0.82rem; color: var(--pale-purple); margin: 0; line-height: 1.55;">Fellow of St Catharine's. Originated the Register from enquiries at the annual London dinner of old members. His editorial principles — a biographical sketch, not merely a scholastic record — guided every successor.</p>
+        </div>
+        <div style="border: 1px solid rgba(107,31,138,0.25); padding: 1.2rem; background: rgba(107,31,138,0.04);">
+          <div style="font-family: var(--font-display); font-size: 0.85rem; color: var(--off-white); margin-bottom: 0.25rem; letter-spacing: 0.02em;">K. Macrae Moir</div>
+          <div style="font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.1em; color: var(--purple-glow); margin-bottom: 0.6rem;">Supplement · 1933</div>
+          <p style="font-size: 0.82rem; color: var(--pale-purple); margin: 0; line-height: 1.55;">Compiled the supplement for 1926–1933, bridging the gap between Withers' final edition and the post-war volumes and maintaining the unbroken chain of record.</p>
+        </div>
+        <div style="border: 1px solid rgba(107,31,138,0.25); padding: 1.2rem; background: rgba(107,31,138,0.04);">
+          <div style="font-family: var(--font-display); font-size: 0.85rem; color: var(--off-white); margin-bottom: 0.25rem; letter-spacing: 0.02em;">R. H. Bulmer &amp; L. P. Wilkinson</div>
+          <div style="font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.1em; color: var(--purple-glow); margin-bottom: 0.6rem;">Editions 3 &amp; 4 · 1963, 1973</div>
+          <p style="font-size: 0.82rem; color: var(--pale-purple); margin: 0; line-height: 1.55;">Compiled two editions covering 1919–1970 and 3,860 then 3,381 members. Wilkinson also wrote <em>A Century of King's</em> (1980), the college's principal narrative history. Together they gave the Register its enduring scholarly rationale.</p>
+        </div>
+        <div style="border: 1px solid rgba(107,31,138,0.25); padding: 1.2rem; background: rgba(107,31,138,0.04);">
+          <div style="font-family: var(--font-display); font-size: 0.85rem; color: var(--off-white); margin-bottom: 0.25rem; letter-spacing: 0.02em;">John Barcroft &amp; Martin Booth</div>
+          <div style="font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.1em; color: var(--purple-glow); margin-bottom: 0.6rem;">Edition 5 · 1989</div>
+          <p style="font-size: 0.82rem; color: var(--pale-purple); margin: 0; line-height: 1.55;">Compiled the fifth edition covering 1945–1982, incorporating women for the first time following the admission of female undergraduates in 1972. Dedicated their volume to Bulmer and Wilkinson.</p>
+        </div>
+        <div style="border: 1px solid rgba(107,31,138,0.25); padding: 1.2rem; background: rgba(107,31,138,0.04);">
+          <div style="font-family: var(--font-display); font-size: 0.85rem; color: var(--off-white); margin-bottom: 0.25rem; letter-spacing: 0.02em;">Campbell, Cornthwaite &amp; Dixon</div>
+          <div style="font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.1em; color: var(--purple-glow); margin-bottom: 0.6rem;">Edition 6 · 1998</div>
+          <p style="font-size: 0.82rem; color: var(--pale-purple); margin: 0; line-height: 1.55;">Compiled the sixth edition covering 1919–1990 for the King's College Association, with entries for all members believed still living in 1998 — the broadest single sweep of the series to that date.</p>
+        </div>
+        <div style="border: 1px solid rgba(107,31,138,0.25); padding: 1.2rem; background: rgba(107,31,138,0.04);">
+          <div style="font-family: var(--font-display); font-size: 0.85rem; color: var(--off-white); margin-bottom: 0.25rem; letter-spacing: 0.02em;">Adkins, Bulmer, Jones &amp; Langley</div>
+          <div style="font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.1em; color: var(--purple-glow); margin-bottom: 0.6rem;">Edition 7 · 2018</div>
+          <p style="font-size: 0.82rem; color: var(--pale-purple); margin: 0; line-height: 1.55;">Seventh and most recent edition: ~10,000 entries covering 1934–2010. The editors described their volume as "a testament to the aspirations of their forerunners, and, moreover, to their fulfilment."</p>
+        </div>
+      </div>
+      <p style="font-family: var(--font-body); font-size: 0.82rem; font-style: italic; color: var(--pale-purple); max-width: 680px; line-height: 1.65;">
+        The tradition reaches still further back. The earliest known list of King's members dates to 1452. Thomas Hatcher (KC 1555) is recorded as having "tooke Greate paines in Collecting his Catalogue in token of his loue to this Royall foundacion" — a sentiment that runs, unbroken, through every edition of the Register to the present day.
+      </p>
+    </div>
 
     <!-- Example entries -->
-    <h3 class="subsection-title" style="margin-top: 3rem;">Example entries</h3>
+    <h3 class="subsection-title" style="margin-top: 3.5rem;">The entries</h3>
     <p style="max-width:640px; margin-bottom: 2rem; font-size: 0.95rem;">
-      Each entry follows a consistent structure — school, admission year, tripos result, career appointments, and dates of birth and death. Two facsimiles from the printed volume illustrate the range and variety of the database.
+      Withers described his task as producing "a short and concise biographical sketch of each man generally, so that any friend or contemporary would know at a glance what he had done, what he was doing, and where he might be found." Two facsimile entries from the printed volume show what he created — and what this project seeks to unlock at scale.
     </p>
 
     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 0.6rem;">
@@ -1554,8 +1617,10 @@
       <h2 class="section-title">Preliminary <em>findings</em></h2>
       <div class="rule-divider"><span class="rule-ornament">✦</span></div>
       <p>
-        The following results are drawn from the first volume of the Register (Withers ed., admissions 1797–1925).
-        All figures are produced in Python from the v.6 Ollama LLM pipeline — 2,575 members, 125 fields.
+        The following results are drawn from the first volume of the Register — the Withers edition,
+        covering admissions 1797–1925. They are based on 2,575 biographical entries, with 125
+        structured fields extracted from the printed text: the same data that Withers and his
+        collaborators gathered, now made available for systematic analysis.
       </p>
     </div>
 
@@ -1864,52 +1929,57 @@
     <h2 class="section-title">Further <em>work</em></h2>
     <div class="rule-divider"><span class="rule-ornament">✦</span></div>
     <p style="max-width: 680px; margin-bottom: 0;">
-      The current dataset covers one volume of seven. Extending the pipeline to the full series 
-      would produce a database of over 20,000 King's members, covering admissions from 1797 to 2010 
-      and opening several further lines of enquiry.
+      The current dataset covers one volume of seven. The compilers of the 2018 edition recorded
+      around 10,000 members in that volume alone. Extending the pipeline to the full series would
+      produce a database of over 20,000 King's members, covering admissions from 1797 to 2010 —
+      and honouring the work of every editor who kept the record alive.
     </p>
 
     <div class="potential-grid">
       <div class="potential-card">
         <span class="potential-icon">📅</span>
         <h3>Completing the Series</h3>
-        <p>Processing the remaining six volumes (admissions 1926–2010) to extend the database 
-        through the twentieth century, including the admission of women from 1972 and the 
-        post-war expansion of the college.</p>
+        <p>Processing the remaining six volumes (admissions 1926–2010) to extend the database
+        through the twentieth century, including the admission of women from 1972 and the
+        post-war expansion of the college — digitising in turn each body of work that successive
+        editors assembled.</p>
       </div>
       <div class="potential-card">
         <span class="potential-icon">🔗</span>
         <h3>Record Linkage</h3>
-        <p>Linking King's members to external sources — the <em>Oxford Dictionary of National 
-        Biography</em>, the British Medical Register, Venn's <em>Alumni Cantabrigienses</em>, 
-        and parliamentary records — to enrich the biographical variables.</p>
+        <p>Linking King's members to external sources — the <em>Oxford Dictionary of National
+        Biography</em>, the British Medical Register, Venn's <em>Alumni Cantabrigienses</em>,
+        and parliamentary records — to enrich the biographical variables the compilers collected.</p>
       </div>
       <div class="potential-card">
         <span class="potential-icon">🏥</span>
         <h3>Health and Mortality</h3>
-        <p>Constructing period and cohort life tables from the birth and death dates 
-        recorded in the Register, and comparing the mortality experience of King's members 
+        <p>Constructing period and cohort life tables from the birth and death dates
+        recorded in the Register, and comparing the mortality experience of King's members
         with the national population and peers at other colleges.</p>
       </div>
       <div class="potential-card">
         <span class="potential-icon">🌐</span>
         <h3>Networks</h3>
-        <p>Analysing co-membership and career overlap to study the formation of 
-        intellectual and political groupings within the college, including the 
+        <p>Analysing co-membership and career overlap to study the formation of
+        intellectual and political groupings within the college, including the
         Apostles and the Bloomsbury Group.</p>
       </div>
       <div class="potential-card">
         <span class="potential-icon">🏫</span>
         <h3>Comparative Analysis</h3>
-        <p>Extending the approach to other colleges with comparable admissions registers — 
-        Trinity, St John's, Balliol — to situate King's patterns within the broader 
-        history of the ancient universities.</p>
+        <p>Extending the approach to other colleges with comparable admissions registers —
+        Trinity, St John's, Balliol — to situate King's patterns within the broader
+        history of the ancient universities, and to test whether the findings are particular
+        to King's or general to the old universities.</p>
       </div>
       <div class="potential-card">
         <span class="potential-icon">🤝</span>
-        <h3>Open Data</h3>
-        <p>Making the cleaned database and R analysis scripts available to other researchers, 
-        as a contribution to the digital history of British higher education.</p>
+        <h3>Archival Partnership</h3>
+        <p>Offering the structured dataset to the King's College Archive as a permanent
+        digital complement to the printed Register series, and making the analysis code
+        openly available to researchers — extending, in a new form, the work the compilers
+        began in 1903.</p>
       </div>
     </div>
   </div>
@@ -1928,8 +1998,9 @@
     &nbsp;·&nbsp;
     King's College Cambridge, CB2 1ST
     <br><br>
-    Data source: <em>Register of Admissions to King's College, Cambridge</em> (Withers ed., 1797–1925) · 
-    OCR pipeline v.6 · Visualisations produced in R / ggplot2
+    Data drawn from: <em>A Register of Admissions to King's College, Cambridge, 1797–1925</em>,
+    compiled by John J. Withers (London: John Murray, 1929) · Digitisation and analysis: N. Fitzhenry ·
+    Visualisations produced in R / ggplot2 · CAMPOP, University of Cambridge
   </div>
 </footer>
 
